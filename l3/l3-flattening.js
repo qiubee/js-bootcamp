@@ -1,5 +1,9 @@
-let arrays = [[994, 1008], [113392, 11508], [11513, 11520]];
+flattenArray = (array) => {
+    return array.reduce((accumulator, currentValue) => {
+        return accumulator.concat(currentValue);
+    });
+}
 
-console.log(arrays.concat([[1, 2], [1, 2], [1, 2]]));
+let array = [[994, 1008], [113392, 11508], [11513, 11520]];
 
-
+console.log(flattenArray(array));
