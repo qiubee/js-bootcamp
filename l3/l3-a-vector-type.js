@@ -5,10 +5,10 @@ class Vec {
     }
 }
 
-Vec.prototype.plus = funcion() {
+Vec.prototype.plus = function() {
 
 }
 
-Vec.prototype.minus = funcion() {
+Vec.prototype.minus = function() {
 
 }
